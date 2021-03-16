@@ -9,7 +9,11 @@ namespace AdminProject.Controllers
     public class CustomerController : Controller
     {
         // GET: Customer
-        public ActionResult Index()
+        public ActionResult About()
+        {
+            return View();
+        }
+        public ActionResult Contact()
         {
             return View();
         }
