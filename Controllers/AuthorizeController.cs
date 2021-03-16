@@ -52,5 +52,10 @@ namespace AdminProject.Controllers
         {
             return View();
         }
+
+        public ActionResult Logout2()
+        {
+            return View();
+        }
     }
 }
